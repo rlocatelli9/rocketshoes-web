@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import {
@@ -68,6 +69,11 @@ function Cart({ cart, removeFromCart }) {
     </Container>
   );
 }
+
+Cart.propTypes = {
+  cart: PropTypes.shape().isRequired,
+  removeFromCart: PropTypes.func.isRequired,
+};
 
 const mapStateToProps = (state) => ({
   cart: state.cart,

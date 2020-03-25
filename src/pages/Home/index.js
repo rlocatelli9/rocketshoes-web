@@ -49,7 +49,7 @@ function Home({ addToCart }) {
 }
 
 Home.propTypes = {
-  dispatch: PropTypes.func.isRequired,
+  addToCart: PropTypes.func.isRequired,
 };
 
 const mapDispatchToProps = (dispatch) =>
