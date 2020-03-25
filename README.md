@@ -38,11 +38,11 @@ Technologies highlighted in use:
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom)
 - [react-icons](https://www.npmjs.com/package/react-icons)
 - [axios](https://www.npmjs.com/package/axios)
-- [prop-types](https://www.npmjs.com/package/prop-types)
 - [redux](https://redux.js.org/)
 - [redux-saga](https://redux-saga.js.org/)
+- [react-toastify](https://github.com/fkhadra/react-toastify)
+- [prop-types](https://www.npmjs.com/package/prop-types)
 - [styled-components](https://www.npmjs.com/package/styled-components)
-- [toastlist](https://www.npmjs.com/package/styled-components)
 
 ## 💻 Projeto
 
